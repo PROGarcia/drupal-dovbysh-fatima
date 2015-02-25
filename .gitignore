@@ -1,11 +1,8 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
+.idea
 
-# Other files and folders
-.settings/
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
